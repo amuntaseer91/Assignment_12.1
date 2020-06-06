@@ -1,0 +1,282 @@
+
+
+ body{
+ 	
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: 'Playfair Display', serif;
+ 	color: #626262;
+ }
+
+/*header start*/
+header{
+	padding: 15px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 15%;
+	margin-top: 8px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 70%;
+	
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0 50px;
+
+}
+.menu ul li a:hover{
+	color: #626262;
+	font-size: 18px;
+	transition: 0.5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+
+.b_img img{
+	width: 100%;
+	padding-bottom: 94px;
+}
+/*banner end*/
+
+/*Content starts*/
+.wrapper{
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+	
+	
+	
+}
+
+.diary {
+	padding: 70px 0 90px 0;
+}
+.diary small{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:15px;
+	
+
+}
+
+.diary h2{
+	font-size: 30px;
+}
+.diary p{
+	padding:30px 0 54px 0;
+	text-align: justify-all;
+}
+
+
+
+.single_item{
+	width: 47%;
+	margin-top: 40px;
+	float: left;
+	
+
+
+	
+}
+
+.single_item img{
+
+	/*padding: 142px 0 40px 0;*/
+	width: 100%;
+	margin-bottom: 27px;
+
+
+}
+
+
+.single_item small{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;	
+	
+}
+
+
+.single_item h3{
+	padding: 28px 0 27px ;
+	font-size: 30px;
+}
+
+.single_item p{
+	text-align: justify;
+	padding-bottom: 90px;
+}
+
+
+.single_item:nth-child(even){
+	
+ 	margin-left: 65px;
+
+} 
+
+
+.single_item:nth-child(odd){
+	
+	padding-right: 0;
+} 
+
+/*content end*/
+
+/*newsletter starts*/
+.newsletter{
+	background-color: #F0F0F0;
+	padding: 76px 0 50px 0;
+	
+
+}
+
+.newsletter h3{
+	text-align: center;
+	padding-bottom: 73px;
+	color: black;
+	font-size: 30px;
+	
+}
+
+
+.form{
+	display: block;
+	text-align: center;
+    margin-left:  22px;
+
+
+}
+
+
+
+.form input {
+  width: 22%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black; 
+  padding-right: 80px; 
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+
+  
+  
+}
+
+.form  button{
+	border: 0;
+	outline: 0;
+
+	
+}
+
+.button  {
+	padding: 70px 0 90px 0;
+	text-align: center;
+	
+}
+
+.button button{
+	font-family: 'Playfair Display', serif; 
+	font-weight: 400;
+	font-size: 20px;
+	color: #626262;
+	background: none;
+	border: 1px solid #626262;
+	cursor: pointer;
+	width: 160px;
+	height: 50px;
+
+}
+
+.button button:focus{
+	outline: 0;
+}
+
+.button button:hover{
+	background-color: #626262;
+	color: white;
+}
+
+.foot{
+	background-color: #F0F0F0;
+	padding: 41px 0 52px 0;
+}
+.private{
+	float: left;
+
+}
+
+/*.private ul{
+	float: right;
+}
+
+.private ul li{
+	list-style: none;
+	float: right;
+}
+
+.private ul li a{
+	text-decoration: none;
+	display: inline-block;
+}*/
+
+.private p{
+	padding-left: 117px;
+}
+
+.private p:hover{
+	color: #626262;
+}
+
+.icon{
+	float: right;
+
+}
+
+.icon ul{
+	float: right;
+	padding-right: 117px;
+}
+
+.icon ul li{
+	list-style: none;
+	float: left;
+
+}
+.icon ul li i{
+	padding: 0 12px 0 10px;
+	color: #929292;
+}
+
+.icon ul li i:hover{
+	color: #626262;
+}
+
+
+/*newsletter end*/
